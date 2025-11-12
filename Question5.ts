@@ -35,12 +35,12 @@ export class TodoListComponent {
   filterTodos(): Todo[] {
     switch (this.filter) {
         case 'completed':
-        return this.todos.filter(todo => todo.completed);
+          return this.todos.filter(todo => todo.completed);
         case 'pending':
-        return this.todos.filter(todo => !todo.completed);
+          return this.todos.filter(todo => !todo.completed);
         case 'all':
-        default:
-        return this.todos;
+          default:
+            return this.todos;
     }
   }
 }

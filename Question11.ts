@@ -17,4 +17,5 @@ export class SearchFilterPipe implements PipeTransform {
 
     const lowerTerm = searchTerm.toLowerCase();
     return items.filter(item => item.title.toLowerCase().includes(lowerTerm));
+  }
 }
