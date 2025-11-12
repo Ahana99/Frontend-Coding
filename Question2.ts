@@ -12,7 +12,7 @@
 
 /**
  ******************* product.component.ts *******************
- */
+*/
 
 import { Component, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
@@ -45,7 +45,7 @@ export class ProductComponent implements OnInit {
 
 /**
  ******************* advanced-data.service.ts *******************
- */
+*/
 
 import { Injectable, Optional, SkipSelf } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
